@@ -1,15 +1,15 @@
 
 Pod::Spec.new do |s|
 
-s.name         = "WBPayManage"
+s.name         = "WQPayManage"
 s.version      = "0.0.1"
 s.summary      = "Pod库"
-s.homepage     = "https://github.com/WQiOS/WBPayManage"
+s.homepage     = "https://github.com/WQiOS/WQPayManage"
 s.license      = "MIT"
 s.author       = { "王强" => "1570375769@qq.com" }
 s.platform     = :ios, "8.0" #平台及支持的最低版本
 s.requires_arc = true # 是否启用ARC
-s.source       = { :git => "https://github.com/WQiOS/WBPayManage.git", :tag => "#{s.version}" }
+s.source       = { :git => "https://github.com/WQiOS/WQPayManage.git", :tag => "#{s.version}" }
 
 s.ios.deployment_target = '8.0'
 
@@ -32,23 +32,23 @@ s.dependency 'BlocksKit'
 
 
 s.subspec 'Controller' do |controller|
-controller.source_files = "WBPayManage/Controller/*.{h,m}"
+controller.source_files = "WQPayManage/Controller/*.{h,m}"
 end
 
 s.subspec 'Helper' do |helper|
-helper.source_files = "WBPayManage/Helper/*.{h,m}"
+helper.source_files = "WQPayManage/Helper/*.{h,m}"
 end
 
 s.subspec 'Model' do |model|
-model.source_files = "WBPayManage/Model/*.{h,m}"
+model.source_files = "WQPayManage/Model/*.{h,m}"
 end
 
 s.subspec 'View' do |view|
-view.source_files = "WBPayManage/View/*.{h,m}"
+view.source_files = "WQPayManage/View/*.{h,m}"
 end
 
 s.subspec 'ViewModel' do |viewModel|
-viewModel.source_files = "WBPayManage/ViewModel/*.{h,m}"
+viewModel.source_files = "WQPayManage/ViewModel/*.{h,m}"
 end
 
 end
