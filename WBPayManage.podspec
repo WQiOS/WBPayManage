@@ -30,26 +30,25 @@ s.dependency 'ZLInterface', '1.trunk.1'
 s.dependency 'Masonry'
 s.dependency 'BlocksKit'
 
-# s.exclude_files = 'WBPayManage.h'
 
-s.subspec 'Controller' do |Controller|
-Controller.source_files = "WBPayManage/Controller/*.{h,m}"
+s.subspec 'Controller' do |controller|
+controller.source_files = "WBPayManage/Controller/*.{h,m}"
 end
 
-s.subspec 'Helper' do |Helper|
-Helper.source_files = "WBPayManage/Helper/*.{h,m}"
+s.subspec 'Helper' do |helper|
+helper.source_files = "WBPayManage/Helper/*.{h,m}"
 end
 
-s.subspec 'Model' do |Model|
-Model.source_files = "WBPayManage/Model/*.{h,m}"
+s.subspec 'Model' do |model|
+model.source_files = "WBPayManage/Model/*.{h,m}"
 end
 
-s.subspec 'View' do |View|
-View.source_files = "WBPayManage/View/*.{h,m}"
+s.subspec 'View' do |view|
+view.source_files = "WBPayManage/View/*.{h,m}"
 end
 
-s.subspec 'ViewModel' do |ViewModel|
-ViewModel.source_files = "WBPayManage/ViewModel/*.{h,m}"
+s.subspec 'ViewModel' do |viewModel|
+viewModel.source_files = "WBPayManage/ViewModel/*.{h,m}"
 end
 
 end
